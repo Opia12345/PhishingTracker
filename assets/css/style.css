@@ -148,6 +148,9 @@ h6 {
   background: #009961;
   color: #fff;
   border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
   padding: 8px 25px 9px 25px;
   white-space: nowrap;
   transition: 0.3s;
@@ -1127,7 +1130,27 @@ section {
   transition: 0.3s;
 }
 
+.pricing .box .btn-buy-1 {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 50px;
+  border: 2px solid #009961;
+  cursor: pointer;
+  color: #009961;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
 .pricing .box .btn-buy:hover {
+  background: #009961;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.pricing .box .btn-buy-1:hover {
   background: #009961;
   color: #fff;
 }
@@ -1144,6 +1167,7 @@ section {
 .pricing .recommended .btn-buy:hover {
   background: #00b371;
   border-color: #00b371;
+  cursor: not-allowed;
 }
 
 .pricing .recommended-badge {
