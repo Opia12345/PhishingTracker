@@ -231,3 +231,40 @@
   new PureCounter();
 
 })()
+
+function downloadZipFile() {
+  e.preventDefault()
+  // Path to your local zip file
+  const zipFilePath = './ext.zip';
+
+  // Fetch the zip file as a blob
+  fetch(zipFilePath)
+    .then(response => response.blob())
+    .then(blob => {
+      // Create a blob URL for the zip file
+      const blobUrl = URL.createObjectURL(blob);
+
+      // Create a download link
+      const downloadLink = document.createElement('a');
+      downloadLink.href = blobUrl;
+      downloadLink.download = 'netscrape.zip';
+
+      // Append the download link to the body (you can also append it to a specific element)
+      document.body.appendChild(downloadLink);
+
+      // Click the download link
+      downloadLink.click();
+
+      // Remove the download link from the DOM
+      document.body.removeChild(downloadLink);
+
+      // Revoke the blob URL to free up resources
+      URL.revokeObjectURL(blobUrl);
+    })
+    .catch(error => {
+      console.error('Error downloading zip file:', error);
+    });
+}
+
+document.getElementById('downloadButton').addEventListener('click', downloadZipFile);
+
