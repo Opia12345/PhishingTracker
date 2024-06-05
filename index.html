@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <title>NetScrape</title>
+    <title>NetScrape - Home</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
     <link href="assets/img/netscrape.png" rel="icon" />
     <link href="assets/img/netscrape.png" rel="apple-touch-icon" />
 
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
@@ -24,354 +25,180 @@
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
       href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
   </head>
 
-  <body>
-    <header id="header" class="fixed-top">
-      <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div
-            class="col-xl-9 d-flex align-items-center justify-content-lg-between"
-          >
-            <h1 class="logo me-auto me-lg-0">
-              <a href="index.html">NetScrape</a>
-            </h1>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/netscrape.png" alt="" />
+          <h1 class="sitename">NetScrape</h1>
+        </a>
 
-            <nav id="navbar" class="navbar order-last order-lg-0">
-              <ul>
-                <li>
-                  <a class="nav-link scrollto active" href="#hero">Home</a>
-                </li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li>
-                  <a class="nav-link scrollto" href="#pricing">Pricing</a>
-                </li>
-                <li>
-                  <a class="nav-link scrollto" href="#contact">Contact</a>
-                </li>
-              </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li><a href="#faq-2">FAQs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
 
-            <button id="downloadButton" class="get-started-btn">
-              Download Extension
-            </button>
-          </div>
-        </div>
+        <button class="btn-getstarted" id="downloadButton">
+          Download
+        </button>
       </div>
     </header>
 
-    <section id="hero" class="d-flex flex-column justify-content-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8">
-            <h1>Welcome to NetScrape</h1>
-            <h2>
-              Secure Your Web Experience Protect and your browsing with advanced
-              phishing detection and alerts.
-            </h2>
-            <a
-              href="https://www.youtube.com/watch?v=XBkzBrXlle0"
-              class="glightbox play-btn mb-4"
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <main id="main">
-      <section id="about" class="about">
+    <main class="main">
+      <section id="hero" class="hero section">
         <div class="container">
-          <div class="section-title">
-            <h2>Why NetScrape?</h2>
-            <p>
-              At NetScrape, we prioritize your online security. With the rise of
-              phishing attacks and malicious websites, it's crucial to have a
-              robust defense system while browsing the internet. NetScrape is
-              designed to safeguard your personal information and ensure a safe
-              browsing experience.
-            </p>
-          </div>
-
-          <div class="row content">
-            <div class="col-lg-6">
-              <p>
-                With NetScrape, you are not just getting a tool; you are gaining
-                a partner in online security. Experience the difference with
-                NetScrape and browse the internet with confidence.
-              </p>
-            </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-              <p>
-                Stay informed with our library of educational resources. Learn
-                about the latest security threats, best practices for online
-                safety, and how to recognize phishing attempts. Empower yourself
-                with knowledge and browse confidently.
-              </p>
-              <a id="downloadButton2" class="btn-learn-more"
-                >Download Extension</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="services" class="services">
-        <div class="container">
-          <div class="section-title">
-            <h2>Key Features</h2>
-            <p>
-              Discover the powerful features that make NetScrape your ultimate
-              online security companion. Our extension is packed with
-              cutting-edge technology and user-friendly design to provide
-              unparalleled protection against phishing and other cyber threats.
-              Here’s what makes NetScrape stand out:
-            </p>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">User-Friendly Interface</a></h4>
-                <p>
-                  NetScrape is designed to be user-friendly, ensuring that you
-                  can easily navigate and utilize its features. The seamless
-                  integration with your browser provides instant alerts without
-                  disrupting your browsing experience. Whether you're a tech
-                  expert or a casual user, you'll find NetScrape easy to
-                  operate.
-                </p>
-              </div>
-            </div>
-
+          <div class="row gy-4">
             <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+              data-aos="zoom-out"
             >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Customizable Settings</a></h4>
-                <p>
-                  Tailor NetScrape to your needs with customizable settings.
-                  Adjust alert levels, add trusted sites, and manage your
-                  security preferences with ease. Personalize your browsing
-                  protection to match your specific requirements and enhance
-                  your online safety.
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Real-Time Phishing Detection</a></h4>
-                <p>
-                  Our extension scans websites in real-time to detect and block
-                  phishing attempts before they can compromise your data. Using
-                  state-of-the-art algorithms, NetScrape identifies suspicious
-                  URLs and malicious content to keep you safe.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">24/7 Customer Support</a></h4>
-                <p>
-                  Our dedicated support team is available 24/7 to assist you
-                  with any issues or questions. Whether you need help with
-                  installation, configuration, or troubleshooting, we are here
-                  to ensure you get the most out of NetScrape.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Detailed Security Reports</a></h4>
-                <p>
-                  Gain insights into your online security with detailed reports.
-                  NetScrape provides summaries of blocked threats, allowing you
-                  to understand your browsing risks better and take proactive
-                  measures to enhance your safety.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Regular Updates</a></h4>
-                <p>
-                  Stay protected with regular updates that enhance security
-                  features and expand our phishing database. Our team
-                  continuously works on improving NetScrape, ensuring it adapts
-                  to new threats and provides robust protection against evolving
-                  online dangers.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="cta" class="cta">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9 text-center text-lg-start">
-              <h3>Download Now</h3>
+              <h1>NetScrape</h1>
               <p>
-                Protect your online experience today! Click the button to
-                download NetScrape and start browsing securely.
+                Secure Your Web Experience Protect and your browsing with
+                advanced phishing detection and alerts.
               </p>
-            </div>
-            <div class="col-lg-3 cta-btn-container text-center">
-              <a id="downloadButton3" class="cta-btn align-middle"
-                >Download Extension</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="features" class="features">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 order-2 order-lg-1">
-              <div class="icon-box mt-5 mt-lg-0">
-                <i class="bx bx-cube-alt"></i>
-                <h4>Advanced Technology</h4>
-                <p>
-                  NetScrape leverages cutting-edge technology to detect and
-                  block phishing sites before they can cause harm.
-                </p>
-              </div>
-              <div class="icon-box mt-5">
-                <i class="bx bx-shield"></i>
-                <h4>Comprehensive Coverage</h4>
-                <p>
-                  NetScrape offers comprehensive coverage against a wide range
-                  of threats.
-                </p>
-              </div>
-              <div class="icon-box mt-5">
-                <i class="bx bx-plus"></i>
-                <h4>Seamless Integration</h4>
-                <p>
-                  NetScrape integrates seamlessly with your favorite browsers,
-                  including Chrome, Firefox, and Edge.
-                </p>
-              </div>
-              <div class="icon-box mt-5">
-                <i class="bx bx-user"></i>
-                <h4>User-Centric Design</h4>
-                <p>
-                  We understand that user experience is paramount. NetScrape's
-                  intuitive design ensures that even non-tech-savvy users can
-                  navigate and customize their security settings with ease.
-                </p>
+              <div class="d-flex">
+                <button class="btn-getstarted" id="downloadButton2">
+                  Download Extension
+                </button>
+                <a
+                  href="https://www.youtube.com/watch?v=XBkzBrXlle0"
+                  class="glightbox btn-watch-video d-flex align-items-center"
+                  ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
+                >
               </div>
             </div>
             <div
-              class="image col-lg-6 order-1 order-lg-2"
-              style="background-image: url('assets/img/features.jpg')"
-            ></div>
+              class="col-lg-6 order-1 order-lg-2 hero-img"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/hero-img.png"
+                class="img-fluid animated"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="clients" class="clients">
-        <div class="container">
-          <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+      <section id="clients" class="clients section">
+        <div class="container" data-aos="zoom-in">
+          <div class="swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 5,
+                    "spaceBetween": 120
+                  },
+                  "1200": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-1.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-2.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-3.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-4.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-5.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-6.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-7.png"
                   class="img-fluid"
                   alt=""
                 />
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
+              <div class="swiper-slide">
                 <img
                   src="assets/img/clients/client-8.png"
                   class="img-fluid"
@@ -383,271 +210,590 @@
         </div>
       </section>
 
-      <section id="counts" class="counts">
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Why NetScrape?</h2>
+        </div>
+        <!-- End Section Title -->
+
         <div class="container">
-          <div class="text-center title">
-            <h3>What we have achieved so far</h3>
-            <p>
-              Since its launch, NetScrape has made significant strides in
-              enhancing online security for users worldwide. Here are some of
-              our key achievements:
-            </p>
-          </div>
-
-          <div class="row counters position-relative">
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="232"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Clients</p>
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p>
+                At NetScrape, we prioritize your online security. With the rise
+                of phishing attacks and malicious websites, it's crucial to have
+                a robust defense system while browsing the internet. NetScrape
+                is designed to safeguard your personal information and ensure a
+                safe browsing experience.
+              </p>
             </div>
 
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="521"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Projects</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="1463"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Hours Of Support</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span
-                data-purecounter-start="0"
-                data-purecounter-end="15"
-                data-purecounter-duration="1"
-                class="purecounter"
-              ></span>
-              <p>Hard Workers</p>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <p>
+                With NetScrape, you are not just getting a tool; you are gaining
+                a partner in online security. Experience the difference with
+                NetScrape and browse the internet with confidence.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="pricing" class="pricing">
-        <div class="container">
-          <div class="section-title">
-            <h2>Pricing</h2>
-            <p>
-              At NetScrape, we believe in providing top-notch security solutions
-              at competitive prices. Choose the plan that best suits your needs
-              and enjoy unparalleled online protection.
-            </p>
-          </div>
+      <section id="about" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Key Features</h2>
+          <p>
+            Discover the powerful features that make NetScrape your ultimate
+            online security companion.
+          </p>
+        </div>
+        <!-- End Section Title -->
 
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="box">
-                <h3>Free</h3>
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-activity icon"></i></div>
+                <h4>
+                  <a href="service-details.html" class="stretched-link"
+                    >User-Friendly Interface</a
+                  >
+                </h4>
+                <p>
+                  NetScrape is designed to be user-friendly, ensuring that you
+                  can easily navigate and utilize its features.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>
+                  <a href="service-details.html" class="stretched-link"
+                    >Customizable Settings</a
+                  >
+                </h4>
+                <p>
+                  Tailor NetScrape to your needs with customizable settings.
+                  Adjust alert levels, add trusted sites, and manage your
+                  security preferences with ease.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week icon"></i>
+                </div>
+                <h4>
+                  <a href="service-details.html" class="stretched-link"
+                    >Real-Time Phishing Detection</a
+                  >
+                </h4>
+                <p>
+                  Our extension scans websites in real-time to detect and block
+                  phishing attempts before they can compromise your data.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+                <h4>
+                  <a href="service-details.html" class="stretched-link"
+                    >Detailed Security Reports</a
+                  >
+                </h4>
+                <p>
+                  Gain insights into your online security with detailed reports.
+                  NetScrape provides summaries of blocked threats, allowing you
+                  to understand your browsing risks better and take proactive
+                  measures to enhance your safety.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+
+      <section id="call-to-action" class="call-to-action section">
+        <img src="assets/img/cta-bg.jpg" alt="" />
+
+        <div class="container">
+          <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-9 text-center text-xl-start">
+              <h3>Download Now</h3>
+              <p>
+                Protect your online experience today! Click the button to
+                download NetScrape and start browsing securely.
+              </p>
+            </div>
+            <div class="col-xl-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" id="downloadButton3"
+                >Download Extension</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>
+            At NetScrape, we believe in providing top-notch security solutions
+            at competitive prices. Choose the plan that best suits your needs
+            and enjoy unparalleled online protection.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pricing-item">
+                <h3>Free Plan</h3>
                 <h4><sup>$</sup>0<span> / month</span></h4>
                 <ul>
-                  <li>Basic Phishing Protection</li>
-                  <li>Real-Time Alerts</li>
-                  <li>Regular Updates</li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Basic Phishing Protection</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Real-Time Alerts</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Regular Updates</span>
+                  </li>
                 </ul>
-                <div class="btn-wrap">
-                  <a id="downloadButton4" class="btn-buy-1">Get Now</a>
-                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
               </div>
             </div>
+            <!-- End Pricing Item -->
 
-            <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-              <div class="box recommended">
-                <span class="recommended-badge">Recommended</span>
-                <h3>Business</h3>
-                <h4><sup>$</sup>19<span> / month</span></h4>
-                <ul>
-                  <li>Enhanced Phishing Detection</li>
-                  <li>Customizable Settings</li>
-                  <li>Priority Customer Support</li>
-                </ul>
-                <div class="btn-wrap">
-                  <a class="btn-buy">Get Now</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <div class="box">
-                <h3>Developer</h3>
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pricing-item featured">
+                <h3>Business Plan</h3>
                 <h4><sup>$</sup>29<span> / month</span></h4>
                 <ul>
-                  <li>Comprehensive Threat Protection:</li>
-                  <li>Centralized Management Console</li>
-                  <li>Dedicated Account Manager</li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Enhanced Phishing Detection</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Customizable Settings</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span>Priority Customer Support</span>
+                  </li>
                 </ul>
-                <div class="btn-wrap">
-                  <a class="btn-buy">Get Now</a>
-                </div>
+                <a href="#" class="buy-btn">Buy Now</a>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
+            <!-- End Pricing Item -->
 
-      <section id="faq" class="faq">
-        <div class="container-fluid">
-          <div class="row">
-            <div
-              class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
-            >
-              <div class="content">
-                <h3>Frequently Asked <strong>Questions</strong></h3>
-              </div>
-
-              <div class="accordion-list">
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pricing-item">
+                <h3>Developer Plan</h3>
+                <h4><sup>$</sup>49<span> / month</span></h4>
                 <ul>
                   <li>
-                    <a
-                      data-bs-toggle="collapse"
-                      class="collapse"
-                      data-bs-target="#accordion-list-1"
-                      >How does NetScrape detect phishing websites?
-                      <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-1"
-                      class="collapse show"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        NetScrape utilizes advanced algorithms and a constantly
-                        updated database to identify and block phishing websites
-                        in real-time. Our extension scans the URLs you visit and
-                        cross-references them with our extensive database of
-                        known malicious sites. If a match is found, NetScrape
-                        immediately alerts you and blocks the site to prevent
-                        any potential harm. Additionally, our machine learning
-                        technology helps detect new and evolving phishing
-                        threats, ensuring your browsing experience remains safe
-                        and secure.
-                      </p>
-                    </div>
+                    <i class="bi bi-check"></i>
+                    <span>Comprehensive Threat Protection</span>
                   </li>
-
                   <li>
-                    <a
-                      data-bs-toggle="collapse"
-                      data-bs-target="#accordion-list-2"
-                      class="collapsed"
-                      >What happens if NetScrape mistakenly blocks a safe
-                      website? <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-2"
-                      class="collapse"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        In the rare event that NetScrape mistakenly blocks a
-                        safe website, you can easily report the mistake directly
-                        through the extension. Simply click on the "Report
-                        Mistake" button in the alert popup, and our team will
-                        review the site to determine its safety. If the site is
-                        found to be safe, it will be added to our trusted sites
-                        database to prevent future blocks. Additionally, you
-                        have the option to visit the site anyway by clicking the
-                        "Visit Anyway" button, which temporarily bypasses the
-                        block for that session.
-                      </p>
-                    </div>
+                    <i class="bi bi-check"></i>
+                    <span>Centralized Management Console</span>
                   </li>
-
                   <li>
-                    <a
-                      data-bs-toggle="collapse"
-                      data-bs-target="#accordion-list-3"
-                      class="collapsed"
-                      >Can I customize the settings of NetScrape to suit my
-                      browsing habits?
-                      <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-3"
-                      class="collapse"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        Yes, NetScrape offers customizable settings to fit your
-                        unique browsing preferences. You can adjust alert
-                        levels, add trusted sites to a whitelist, and manage
-                        other security preferences through our user-friendly
-                        interface. This flexibility ensures you receive the
-                        protection you need without unnecessary disruptions.
-                      </p>
-                    </div>
+                    <i class="bi bi-check"></i>
+                    <span>Dedicated Account Manager</span>
                   </li>
                 </ul>
+                <a href="#" class="buy-btn">Buy Now</a>
               </div>
             </div>
+            <!-- End Pricing Item -->
+          </div>
+        </div>
+      </section>
 
-            <div
-              class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-              style="background-image: url('assets/img/faq.jpg')"
-            >
-              &nbsp;
+      <section id="testimonials" class="testimonials section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>
+            Discover how the Phishing Site Tracker app has enhanced online
+            security for individuals and businesses alike. Here are some of the
+            experiences shared by our satisfied users.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >I've tried several phishing protection tools before, but
+                      this app stands out. Its real-time alerts and
+                      comprehensive tracking have given me peace of mind. I feel
+                      much more secure browsing the internet now.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >The Phishing Site Tracker app has been a game-changer for
+                      my personal online security. It seamlessly integrates into
+                      my browsing routine and has already blocked multiple
+                      phishing attempts. I can’t imagine going back to browsing
+                      without it!</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >I run a small business and cybersecurity is always a
+                      concern. The Phishing Site Tracker app has significantly
+                      reduced our vulnerability to phishing attacks. It’s
+                      user-friendly and highly effective. Great product!</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >This app is fantastic! It’s very user-friendly and offers
+                      excellent protection against phishing attacks. I love how
+                      it provides instant alerts and detailed reports. Highly
+                      recommended for anyone serious about their online
+                      security.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >Phishing attacks are becoming more sophisticated, and
+                      it's hard to keep up. The Phishing Site Tracker app has
+                      been a lifesaver. Its advanced detection capabilities and
+                      easy-to-understand interface make it a perfect tool for
+                      staying safe online.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq-2" class="faq-2 section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="faq-container">
+                <div
+                  class="faq-item faq-active"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>How does NetScrape detect phishing websites?</h3>
+                  <div class="faq-content">
+                    <p>
+                      NetScrape utilizes advanced algorithms and a constantly
+                      updated database to identify and block phishing websites
+                      in real-time. Our extension scans the URLs you visit and
+                      cross-references them with our extensive database of known
+                      malicious sites. If a match is found, NetScrape
+                      immediately alerts you and blocks the site to prevent any
+                      potential harm. Additionally, our machine learning
+                      technology helps detect new and evolving phishing threats,
+                      ensuring your browsing experience remains safe and secure.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>
+                    What happens if NetScrape mistakenly blocks a safe website?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      In the rare event that NetScrape mistakenly blocks a safe
+                      website, you can easily report the mistake directly
+                      through the extension. Simply click on the "Report
+                      Mistake" button in the alert popup, and our team will
+                      review the site to determine its safety. If the site is
+                      found to be safe, it will be added to our trusted sites
+                      database to prevent future blocks. Additionally, you have
+                      the option to visit the site anyway by clicking the "Visit
+                      Anyway" button, which temporarily bypasses the block for
+                      that session.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>
+                    Can I customize the settings of NetScrape to suit my
+                    browsing habits?
+                  </h3>
+                  <div class="faq-content">
+                    <p>
+                      Yes, NetScrape offers customizable settings to fit your
+                      unique browsing preferences. You can adjust alert levels,
+                      add trusted sites to a whitelist, and manage other
+                      security preferences through our user-friendly interface.
+                      This flexibility ensures you receive the protection you
+                      need without unnecessary disruptions.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title">
-            <h2>Contact</h2>
-            <p>
-              We'd love to hear from you! Whether you have questions about our
-              features, need assistance with your subscription, or want to
-              report an issue, our team is here to help.
-            </p>
-          </div>
+      <section id="contact" class="contact section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>
+            We'd love to hear from you! Whether you have questions about our
+            features, need assistance with your subscription, or want to report
+            an issue, our team is here to help.
+          </p>
         </div>
 
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-lg-4">
-              <div class="info">
-                <div class="address">
-                  <i class="ri-map-pin-line"></i>
-                  <h4>Location:</h4>
-                  <p>153/155 Aba-Owerri Road, Abia State</p>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-5">
+              <div class="info-wrap">
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>153/155 Aba-Owerri Road, Abia State</p>
+                  </div>
                 </div>
+                <!-- End Info Item -->
 
-                <div class="email">
-                  <i class="ri-mail-line"></i>
-                  <h4>Email:</h4>
-                  <p>tino.nwaiwu@gmail.com</p>
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+234 123 456 7890</p>
+                  </div>
                 </div>
+                <!-- End Info Item -->
 
-                <div class="phone">
-                  <i class="ri-phone-line"></i>
-                  <h4>Call:</h4>
-                  <p>+234 123 456 7890</p>
+                <div
+                  class="info-item d-flex"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>tino.nwaiwu@gmail.com</p>
+                  </div>
                 </div>
+                <!-- End Info Item -->
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 270px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
 
-            <div class="col-lg-8 mt-5 mt-lg-0">
+            <div class="col-lg-7">
               <form id="contact-form" class="email-form">
-                <div class="row">
-                  <div class="col-md-6 form-group">
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2">Your Name</label>
                     <input
                       type="text"
                       name="user_name"
@@ -656,7 +802,9 @@
                       required
                     />
                   </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="pb-2">Your Email</label>
                     <input
                       type="email"
                       class="form-control"
@@ -665,65 +813,72 @@
                       required
                     />
                   </div>
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading" style="display: none">Loading</div>
-                  <div
-                    class="error-message"
-                    style="display: none; color: red"
-                  ></div>
-                  <div class="sent-message" style="display: none; color: green">
-                    Your message has been sent. Thank you!
+
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2">Message</label>
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="10"
+                      placeholder="Message"
+                      required
+                    ></textarea>
                   </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
+
+                  <div class="my-3">
+                    <div class="loading" style="display: none">Loading</div>
+                    <div
+                      class="error-message"
+                      style="display: none; color: red"
+                    ></div>
+                    <div
+                      class="sent-message"
+                      style="display: none; color: green"
+                    >
+                      Your message has been sent. Thank you!
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit">Send Message</button>
+                  </div>
                 </div>
               </form>
             </div>
+            <!-- End Contact Form -->
           </div>
         </div>
       </section>
     </main>
 
-    <footer id="footer">
-      <div class="container">
-        <h3>NetScrape</h3>
-        <div class="social-links">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-        <div class="copyright">
-          &copy; Copyright <strong><span>NetScrape</span></strong
-          >. All Rights Reserved
-        </div>
+    <footer id="footer" class="footer">
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">NetScrape</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">Designed by Nwaiwu Valentino</div>
       </div>
     </footer>
 
-    <div id="preloader"></div>
     <a
       href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
 
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <div id="preloader"></div>
+
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
     <script type="text/javascript">
       (function () {
         emailjs.init({
